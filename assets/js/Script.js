@@ -233,7 +233,7 @@ document.querySelector('.hero').classList.add('visible');
 // --- Typing Effect ---
 function initTypingEffect() {
     const subtitleSpan = document.querySelector('.subtitle');
-    const texts = ["Full Stack .NET Developer", "Backend Specialist", "SQL Expert", "Network Enthusiast"];
+    const texts = ["Full Stack .NET Developer", "Backend Specialist",  "Network Administrator"];
     let textIndex = 0;
     let charIndex = 0;
     let isDeleting = false;
