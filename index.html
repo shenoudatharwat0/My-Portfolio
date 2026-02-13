@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Shenouda Tharwat - Full Stack .NET Developer specializing in scalable applications with C# and SQL">
+    <meta name="keywords" content="Full Stack Developer, .NET Developer, C#, ASP.NET, SQL Server, Web Development">
+    <title>Shenouda Tharwat | Full Stack .NET Developer</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>💻</text></svg>">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=IBM+Plex+Mono:wght@300;400;500&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Link to external CSS file  -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <!-- Canvas for Particles -->
+    <canvas id="particles-canvas"></canvas>
+
+    <!-- Loading Screen -->
+    <div class="loading-screen">
+        <div class="loader"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">
+                <i class="fas fa-code"></i>
+                <span>Shenouda Tharwat</span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="#about" class="active">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="nav-buttons">
+                <button class="theme-toggle" aria-label="Toggle dark mode"></button>
+                <button class="hamburger" aria-label="Toggle menu">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>Shenouda Tharwat</h1>
+                    <div class="subtitle-container">
+                        <span class="subtitle"></span><span class="cursor"></span>
+                    </div>
+                    <p>Building scalable, secure, and high-performance applications with C# and SQL. Bridging the gap between software logic and infrastructure performance with a unique blend of development and networking expertise.</p>
+                    <div class="cta-buttons">
+                        <a href="#projects" class="btn btn-primary">
+                            <i class="fas fa-briefcase"></i> View Projects
+                        </a>
+                        <a href="#contact" class="btn btn-secondary">
+                            <i class="fas fa-envelope"></i> Get In Touch
+                        </a>
+                        <a href="assets/pdf/CV.pdf" download class="btn btn-download">
+                            <i class="fas fa-download" ></i> Download Resume
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="profile-container">
+                        <img src="assets/images/profile.jpg" alt="Shenouda Tharwat - Full Stack .NET Developer" loading="lazy">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="fade-in">
+        <div class="container">
+            <div class="section-header">
+                <h2>About Me</h2>
+                <p>Transforming Ideas Into Scalable Solutions</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text fade-item">
+                    <p><strong>Results-oriented Full Stack .NET Developer</strong> with a strong foundation in network engineering and database management. I specialize in building scalable, multi-tenant architectures using C# and SQL Server.</p>
+                    <p>My unique background in networking allows me to bridge the gap between software logic and infrastructure performance, ensuring applications are not only functional but optimized for security, efficiency, and scalability.</p>
+                    <p>Currently focused on developing complex management platforms with robust backend logic, I bring a perspective that combines software development with infrastructure optimization to deliver enterprise-grade solutions.</p>
+                    
+                    <div class="education-card fade-item">
+                        <h3><i class="fas fa-graduation-cap"></i> Education</h3>
+                        <div class="degree">AITU - Bachelor of Information Technology</div>
+                        <span class="duration">2023 - 2027 (Expected)</span>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <!-- Image placeholder -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="fade-in">
+        <div class="container">
+            <div class="section-header">
+                <h2>Technical Expertise</h2>
+                <p>Tools & Technologies I Master</p>
+            </div>
+            <div class="skills-container">
+                <div class="skills-header">
+                    <button class="skill-filter active" data-category="all">All Skills</button>
+                    <button class="skill-filter" data-category="backend">Backend</button>
+                    <button class="skill-filter" data-category="frontend">Frontend</button>
+                    <button class="skill-filter" data-category="database">Database</button>
+                    <button class="skill-filter" data-category="soft">Soft Skills</button>
+                </div>
+                <div class="skills-grid">
+                    <div class="skill-category fade-item" data-category="backend">
+                        <h3><i class="fas fa-server"></i> Backend Development</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag"><i class="fab fa-microsoft"></i> C#</span>
+                            <span class="skill-tag"><i class="fab fa-microsoft"></i> ASP.NET Core</span>
+                            <span class="skill-tag"><i class="fas fa-cloud"></i> Web APIs</span>
+                            <span class="skill-tag"><i class="fas fa-database"></i> Entity Framework Core</span>
+                            <span class="skill-tag"><i class="fas fa-code"></i> LINQ</span>
+                            <span class="skill-tag"><i class="fas fa-cube"></i> OOP</span>
+                            <span class="skill-tag"><i class="fas fa-shield-alt"></i> IdentityServer4</span>
+                            <span class="skill-tag"><i class="fas fa-tachometer-alt"></i> Performance Optimization</span>
+                        </div>
+                    </div>
+                    <div class="skill-category fade-item" data-category="frontend">
+                        <h3><i class="fas fa-laptop-code"></i> Frontend Development</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag"><i class="fab fa-html5"></i> HTML5</span>
+                            <span class="skill-tag"><i class="fab fa-css3-alt"></i> CSS3</span>
+                            <span class="skill-tag"><i class="fab fa-js"></i> JavaScript</span>
+                            <span class="skill-tag"><i class="fab fa-bootstrap"></i> Bootstrap</span>
+                            <span class="skill-tag"><i class="fas fa-mobile-alt"></i> Responsive Design</span>
+                            <span class="skill-tag"><i class="fas fa-palette"></i> UI/UX Principles</span>
+                        </div>
+                    </div>
+                    <div class="skill-category fade-item" data-category="database">
+                        <h3><i class="fas fa-database"></i> Database Management</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag"><i class="fas fa-database"></i> Microsoft SQL Server</span>
+                            <span class="skill-tag"><i class="fas fa-code"></i> T-SQL</span>
+                            <span class="skill-tag"><i class="fas fa-project-diagram"></i> Database Design</span>
+                            <span class="skill-tag"><i class="fas fa-tachometer-alt"></i> Query Optimization</span>
+                            <span class="skill-tag"><i class="fas fa-shield-alt"></i> Data Security</span>
+                            <span class="skill-tag"><i class="fas fa-sync-alt"></i> Dapper</span>
+                        </div>
+                    </div>
+                    <div class="skill-category fade-item" data-category="soft">
+                        <h3><i class="fas fa-heart"></i> Professional Skills</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag"><i class="fas fa-brain"></i> Problem-Solving</span>
+                            <span class="skill-tag"><i class="fas fa-comments"></i> Communication</span>
+                            <span class="skill-tag"><i class="fas fa-exchange-alt"></i> Adaptability</span>
+                            <span class="skill-tag"><i class="fas fa-clock"></i> Time Management</span>
+                            <span class="skill-tag"><i class="fas fa-lightbulb"></i> Critical Thinking</span>
+                            <span class="skill-tag"><i class="fas fa-users"></i> Team Collaboration</span>
+                            <span class="skill-tag"><i class="fas fa-tasks"></i> Agile Methodologies</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="fade-in">
+        <div class="container">
+            <div class="section-header">
+                <h2>Featured Projects</h2>
+                <p>Building Solutions That Matter</p>
+            </div>
+            <div class="projects-header">
+                <h3 class="section-title">My Work</h3>
+                <div class="project-filters">
+                    <button class="project-filter active" data-category="all">All Projects</button>
+                    <button class="project-filter" data-category="web">Web Applications</button>
+                    <button class="project-filter" data-category="system">Systems</button>
+                </div>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card fade-item" data-category="system">
+                    <div class="project-header">
+                        <div>
+                            <h3>EliteStay System</h3>
+                            <p class="project-role">Full Stack Developer</p>
+                        </div>
+                    </div>
+                    <p class="project-tech"><strong>Technologies:</strong> C#, .NET Core, SQL Server, Entity Framework Core, RESTful APIs, RBAC</p>
+                    <p class="project-description">Multi-Tenant Hotel Management Platform designed to support multiple hotel clients on a single instance with strict data isolation and security.</p>
+                    <ul class="project-features">
+                        <li><strong>Multi-Tenant Architecture:</strong> Designed and implemented a scalable architecture supporting multiple hotel clients on a single instance, ensuring strict data isolation and security between tenants.</li>
+                        <li><strong>Database Engineering:</strong> Engineered a complex relational database in SQL Server to manage dynamic room inventory, reservations, and guest profiles. Optimized LINQ queries and stored procedures to reduce latency during high-traffic booking periods.</li>
+                        <li><strong>System Logic & Security:</strong> Built robust backend logic for booking validation and utilized Role-Based Access Control (RBAC) to manage permissions for administrators, front-desk staff, and housekeeping.</li>
+                    </ul>
+                   
+                </div>
+                <div class="project-card fade-item" data-category="system">
+                    <div class="project-header">
+                        <div>
+                            <h3>LedgerLock</h3>
+                            <p class="project-role">Full Stack Developer</p>
+                        </div>
+                    </div>
+                    <p class="project-tech"><strong>Technologies:</strong> C#, .NET Core, Dapper, IdentityServer4, Cryptography, SQL Server</p>
+                    <p class="project-description">Secure Transaction & Audit System with advanced concurrency handling and enterprise-grade security features for financial operations.</p>
+                    <ul class="project-features">
+                        <li><strong>Concurrency Handling:</strong> Designed a transaction engine capable of handling simultaneous fund transfers, utilizing database locking strategies (Optimistic Concurrency) to prevent race conditions and double-spending.</li>
+                        <li><strong>Security & Compliance:</strong> Implemented AES-256 encryption for sensitive financial data at rest and built an immutable audit log to track every system action for compliance.</li>
+                        <li><strong>Authentication:</strong> Integrated IdentityServer4 for secure authentication and authorization with support for multi-factor authentication.</li>
+                    </ul>
+  
+                </div>
+                <div class="project-card fade-item" data-category="web">
+                    <div class="project-header">
+                        <div>
+                            <h3>NetworkFlow Analyzer</h3>
+                            <p class="project-role">Lead Developer</p>
+                        </div>
+                    </div>
+                    <p class="project-tech"><strong>Technologies:</strong> C#, ASP.NET Core, JavaScript, Chart.js, SQL Server, Network Protocols</p>
+                    <p class="project-description">A comprehensive network traffic analysis tool that visualizes data flow, identifies bottlenecks, and provides actionable insights for infrastructure optimization.</p>
+                    <ul class="project-features">
+                        <li><strong>Real-time Visualization:</strong> Implemented dynamic charts and graphs using Chart.js to visualize network traffic patterns and performance metrics in real-time.</li>
+                        <li><strong>Data Processing:</strong> Developed efficient algorithms to process and analyze large volumes of network packet data with minimal latency.</li>
+                        <li><strong>Infrastructure Integration:</strong> Leveraged networking expertise to create seamless integration with existing network infrastructure and monitoring tools.</li>
+                    </ul>
+         </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="fade-in">
+        <div class="container">
+            <div class="section-header">
+                <h2>Services Offered</h2>
+                <p>How I Can Help Your Business</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card fade-item">
+                    <div class="service-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>.NET Application Development</h3>
+                    <p>Building scalable, secure web applications using ASP.NET Core and modern frameworks with clean architecture principles.</p>
+                </div>
+                <div class="service-card fade-item">
+                    <div class="service-icon">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <h3>Database Architecture</h3>
+                    <p>Designing efficient database schemas, optimizing queries, and implementing data security best practices for peak performance.</p>
+                </div>
+                <div class="service-card fade-item">
+                    <div class="service-icon">
+                        <i class="fas fa-project-diagram"></i>
+                    </div>
+                    <h3>API Development</h3>
+                    <p>Creating robust RESTful APIs and integrating third-party services with comprehensive documentation and versioning.</p>
+                </div>
+                <div class="service-card fade-item">
+                    <div class="service-icon">
+                        <i class="fas fa-sync-alt"></i>
+                    </div>
+                    <h3>Legacy System Modernization</h3>
+                    <p>Upgrading legacy applications to modern .NET frameworks with improved architecture, performance, and maintainability.</p>
+                </div>
+                <div class="service-card fade-item">
+                    <div class="service-icon">
+                        <i class="fas fa-network-wired"></i>
+                    </div>
+                    <h3>Infrastructure Optimization</h3>
+                    <p>Leveraging network engineering expertise to optimize application infrastructure, security, and performance.</p>
+                </div>
+                <div class="service-card fade-item">
+                    <div class="service-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Security Implementation</h3>
+                    <p>Implementing robust security measures including authentication, authorization, data encryption, and compliance standards.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Resume Section -->
+    <section class="resume-section fade-in">
+        <div class="container">
+            <div class="resume-content">
+                <h2>Professional Resume</h2>
+                <p>With a strong foundation in both software development and network engineering, I bring a unique perspective to building robust, scalable applications. My expertise spans the entire development lifecycle from architecture and database design to implementation and optimization.</p>
+                <a href="assets/pdf/CV.pdf" download class="btn btn-primary">
+                    <i class="fas fa-download"></i> Download Full Resume <a href="CV.pdf" download></a>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="fade-in">
+        <div class="container">
+            <div class="section-header">
+                <h2>Let's Connect</h2>
+                <p>Ready to collaborate on your next project?</p>
+            </div>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3 class="contact-title">Get In Touch</h3>
+                    <p class="contact-text">I'm currently open to new opportunities and collaborations. Whether you have a question, want to start a project together, or just want to connect, feel free to reach out!</p>
+                    
+                    <div class="contact-methods">
+                        <a href="mailto:Shenoudatharwat0@gmail.com" class="contact-card fade-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div>
+                                <h3>Email</h3>
+                                <p>Shenoudatharwat0@gmail.com</p>
+                            </div>
+                        </a>
+                        <a href="https://wa.me/201031660540" class="contact-card fade-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div>
+                                <h3>Whatsapp </h3>
+                            </div>
+                        </a>
+                        <a href="https://www.linkedin.com/in/shenouda-tharwat-352146389" target="_blank" class="contact-card fade-item">
+                            <div class="contact-icon">
+                                <i class="fab fa-linkedin-in"></i>
+                            </div>
+                            <div>
+                                <h3>LinkedIn</h3>
+                                <p>Connect with me</p>
+                            </div>
+                        </a>
+                        <a href="https://github.com/shenoudatharwat0" target="_blank" class="contact-card fade-item">
+                            <div class="contact-icon">
+                                <i class="fab fa-github"></i>
+                            </div>
+                            <div>
+                                <h3>GitHub</h3>
+                                <p>View my projects</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="contact-form fade-item">
+                    <form id="inquiryForm">
+                        <div class="form-group">
+                            <label for="name">Full Name</label>
+                            <input type="text" id="name" class="form-control" required placeholder="Your name">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" class="form-control" required placeholder="Your email">
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" class="form-control" required placeholder="How can I help?">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" class="form-control" required placeholder="Tell me about your project..."></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">
+                            <i class="fas fa-paper-plane"></i> Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; <span id="current-year"></span> Shenouda Tharwat. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button class="scroll-to-top" aria-label="Scroll to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Link to external JS file  -->
+    <script src="assets/js/Script.js"></script>
+</body>
+</html>
