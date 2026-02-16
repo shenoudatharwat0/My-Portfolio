@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>المشاريع | شنودة ثروت</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <canvas id="particles-canvas"></canvas>
+    <div class="loading-screen"><div class="loader"></div></div>
+
+    <nav id="navbar">
+        <div class="nav-container">
+            <a href="index-ar.html" class="logo"><i class="fas fa-code"></i><span>شنودة ثروت</span></a>
+            <ul class="nav-links">
+                <li><a href="index-ar.html">الرئيسية</a></li>
+                <li><a href="about-ar.html">عني</a></li>
+                <li><a href="skills-ar.html">المهارات</a></li>
+                <li><a href="projects-ar.html" class="active">المشاريع</a></li>
+                <li><a href="services-ar.html">الخدمات</a></li>
+                <li><a href="contact-ar.html">تواصل معي</a></li>
+            </ul>
+           <div class="nav-buttons">
+    <a href="#" class="lang-btn"></a> <button class="theme-toggle"></button>
+    <button class="hamburger"><i class="fas fa-bars"></i></button>
+</div>
+        </div>
+    </nav>
+
+    <div class="page-container">
+        <section id="projects" class="fade-in">
+            <div class="container">
+                <div class="section-header">
+                    <h2>مشاريع مختارة</h2>
+                    <p>بناء حلول ذات تأثير</p>
+                </div>
+                <div class="projects-header">
+                    <h3 class="section-title">أعمالي</h3>
+                    <div class="project-filters">
+                        <button class="project-filter active" data-category="all">كل المشاريع</button>
+                        <button class="project-filter" data-category="web">تطبيقات الويب</button>
+                        <button class="project-filter" data-category="system">الأنظمة</button>
+                    </div>
+                </div>
+                <div class="projects-grid">
+                    <div class="project-card fade-item" data-category="system">
+                        <div class="project-header">
+                            <div>
+                                <h3>نظام EliteStay</h3>
+                                <p class="project-role">مطور Full Stack</p>
+                            </div>
+                        </div>
+                        <p class="project-tech"><strong>التقنيات:</strong> C#, .NET Core, SQL Server, Entity Framework Core, RESTful APIs, RBAC</p>
+                        <p class="project-description">منصة إدارة فنادق متعددة المستأجرين مصممة لدعم عدة عملاء فندقيين على مثيل واحد مع عزل صارم للبيانات وأمان عالٍ.</p>
+                        <ul class="project-features">
+                            <li><strong>بنية متعددة المستأجرين:</strong> تصميم وتنفيذ بنية قابلة للتوسع تدعم عدة عملاء فندقيين.</li>
+                            <li><strong>هندسة قواعد البيانات:</strong> هندسة قاعدة بيانات علائقية معقدة في SQL Server لإدارة المخزون الديناميكي.</li>
+                            <li><strong>أمن النظام:</strong> بناء منطق خلفي قوي وصلاحيات تعتمد على الأدوار (RBAC).</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="project-card fade-item" data-category="system">
+                        <div class="project-header">
+                            <div>
+                                <h3>LedgerLock</h3>
+                                <p class="project-role">مطور Full Stack</p>
+                            </div>
+                        </div>
+                        <p class="project-tech"><strong>التقنيات:</strong> C#, .NET Core, Dapper, IdentityServer4, Cryptography</p>
+                        <p class="project-description">نظام معاملات وتدقيق آمن مع معالجة متقدمة للتزامن وميزات أمان على مستوى المؤسسات.</p>
+                        <ul class="project-features">
+                            <li><strong>معالجة التزامن:</strong> محرك معاملات قادر على التعامل مع التحويلات المتزامنة ومنع التضارب.</li>
+                            <li><strong>الأمان والامتثال:</strong> تشفير AES-256 للبيانات المالية الحساسة وسجل تدقيق غير قابل للتغيير.</li>
+                        </ul>
+                    </div>
+
+                    <div class="project-card fade-item" data-category="web">
+                        <div class="project-header">
+                            <div>
+                                <h3>NetworkFlow Analyzer</h3>
+                                <p class="project-role">المطور الرئيسي</p>
+                            </div>
+                        </div>
+                        <p class="project-tech"><strong>التقنيات:</strong> C#, ASP.NET Core, JavaScript, Chart.js, SQL Server</p>
+                        <p class="project-description">أداة شاملة لتحليل حركة مرور الشبكة تقوم بتصور تدفق البيانات وتحديد الاختناقات.</p>
+                        <ul class="project-features">
+                            <li><strong>تصور في الوقت الحقيقي:</strong> رسوم بيانية ديناميكية باستخدام Chart.js لعرض الأنماط.</li>
+                            <li><strong>معالجة البيانات:</strong> خوارزميات فعالة لمعالجة كميات كبيرة من البيانات بأقل وقت استجابة.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <div class="container"><p>&copy; <span id="current-year"></span> شنودة ثروت. جميع الحقوق محفوظة.</p></div>
+    </footer>
+    <button class="scroll-to-top"><i class="fas fa-arrow-up"></i></button>
+    <script src="assets/js/Script.js"></script>
+</body>
+</html>
