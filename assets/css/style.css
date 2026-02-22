@@ -191,12 +191,20 @@ nav.scrolled {
 }
 
 .nav-links a:hover,
+<<<<<<< HEAD
 .nav-links a.active {
+=======
+    .nav-links a.active {
+>>>>>>> 480b830c5ff288393623b0923b8ca919934b1eb1
     color: var(--highlight);
 }
 
 .nav-links a:hover::after,
+<<<<<<< HEAD
 .nav-links a.active::after {
+=======
+    .nav-links a.active::after {
+>>>>>>> 480b830c5ff288393623b0923b8ca919934b1eb1
     width: 100%;
 }
 
@@ -329,7 +337,11 @@ nav.scrolled {
     position: absolute;
     bottom: 8px;
     left: 0;
+<<<<<<< HEAD
     width: 100%;;
+=======
+    width: 100%;
+>>>>>>> 480b830c5ff288393623b0923b8ca919934b1eb1
     height: 8px;
     background: var(--glow);
     border-radius: 4px;
@@ -586,7 +598,11 @@ section {
     position: absolute;
     bottom: -10px;
     left: 50%;
+<<<<<<< HEAD
     transform: translateX(-50%);;
+=======
+    transform: translateX(-50%);
+>>>>>>> 480b830c5ff288393623b0923b8ca919934b1eb1
     width: 70px;
     height: 4px;
     background: var(--highlight);
@@ -721,7 +737,11 @@ section {
     top: 0;
     left: 0;
     width: 4px;
+<<<<<<< HEAD
     height: 100%;;
+=======
+    height: 100%;
+>>>>>>> 480b830c5ff288393623b0923b8ca919934b1eb1
     background: var(--highlight);
     transform: scaleY(0);
     transform-origin: bottom;
@@ -842,8 +862,13 @@ section {
     position: absolute;
     top: 0;
     left: -100%;
+<<<<<<< HEAD
     width: 100%;;
     height: 100%;;
+=======
+    width: 100%;
+    height: 100%;
+>>>>>>> 480b830c5ff288393623b0923b8ca919934b1eb1
     background: linear-gradient(90deg, transparent, rgba(50, 130, 184, 0.1), transparent);
     transition: var(--transition);
     z-index: 1;
@@ -1445,12 +1470,16 @@ footer p {
     }
     
     .hero {
+<<<<<<< HEAD
         padding-top: 150px !important; /* Increased padding to fix overlap */
         align-items: flex-start;
     }
 
     .page-container {
         padding-top: 140px; /* Increased padding for internal pages */
+=======
+        padding-top: 70px;
+>>>>>>> 480b830c5ff288393623b0923b8ca919934b1eb1
     }
     
     .hero-text h1 {
@@ -1597,6 +1626,10 @@ footer p {
 }
 
 #particles-canvas {
+<<<<<<< HEAD
+=======
+  
+>>>>>>> 480b830c5ff288393623b0923b8ca919934b1eb1
     position: fixed; 
 }
 
@@ -1696,6 +1729,7 @@ html[lang="ar"] .lang-btn {
 .lang-btn:hover {
     border-color: var(--highlight);
     color: var(--highlight);
+<<<<<<< HEAD
 }
 
 /* --- Project Images Styles --- */
@@ -1723,4 +1757,6 @@ html[lang="ar"] .lang-btn {
 
 .project-card .project-header {
     margin-top: 0.5rem;
+=======
+>>>>>>> 480b830c5ff288393623b0923b8ca919934b1eb1
 }
