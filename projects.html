@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects | Shenouda Tharwat</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=IBM+Plex+Mono:wght@300;400;500&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <canvas id="particles-canvas"></canvas>
+    <div class="loading-screen"><div class="loader"></div></div>
+
+    <nav id="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo"><i class="fas fa-code"></i><span>Shenouda Tharwat</span></a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="projects.html" class="active">Projects</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="nav-buttons">
+                <a href="#" class="lang-btn"></a> <button class="theme-toggle"></button>
+                <button class="hamburger"><i class="fas fa-bars"></i></button>
+            </div>
+        </div>
+    </nav>
+
+    <div class="page-container">
+        <section id="projects" class="fade-in">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Selected Works</h2>
+                    <p>Building Solutions That Make An Impact</p>
+                </div>
+                <div class="projects-header">
+                    <h3 class="section-title">My Portfolio</h3>
+                    <div class="project-filters">
+                        <button class="project-filter active" data-category="all">All Projects</button>
+                        <button class="project-filter" data-category="web">Web Apps</button>
+                        <button class="project-filter" data-category="system">Systems</button>
+                    </div>
+                </div>
+                
+                <div class="projects-grid">
+                    <!-- Project 1: EliteStay -->
+                    <div class="project-card fade-item" data-category="system">
+                        <div class="project-img-container">
+                            <img src="assets/images/projects/EliteStay System.png" alt="EliteStay System" class="project-img">
+                        </div>
+                        <div class="project-header">
+                            <div>
+                                <h3>EliteStay System</h3>
+                                <p class="project-role">Full Stack Developer</p>
+                            </div>
+                        </div>
+                        <p class="project-tech"><strong>Tech Stack:</strong> C#, .NET Core, SQL Server, Entity Framework Core, RESTful APIs, RBAC</p>
+                        <p class="project-description">A multi-tenant hotel management platform designed to support multiple hotel clients on a single instance with strict data isolation.</p>
+                        <ul class="project-features">
+                            <li><strong>Multi-Tenancy:</strong> Scalable architecture supporting multiple clients securely.</li>
+                            <li><strong>Database Architecture:</strong> Complex relational DB engineering in SQL Server.</li>
+                            <li><strong>System Security:</strong> Robust backend logic with RBAC implementation.</li>
+                        </ul>
+                    </div>
+                    
+                    <!-- Project 2: LedgerLock -->
+                    <div class="project-card fade-item" data-category="system">
+                        <div class="project-img-container">
+                            <img src="assets/images/projects/LedgerLock.png" alt="LedgerLock System" class="project-img">
+                        </div>
+                        <div class="project-header">
+                            <div>
+                                <h3>LedgerLock</h3>
+                                <p class="project-role">Full Stack Developer</p>
+                            </div>
+                        </div>
+                        <p class="project-tech"><strong>Tech Stack:</strong> C#, .NET Core, Dapper, IdentityServer4, Cryptography</p>
+                        <p class="project-description">Secure transaction and auditing system with advanced concurrency handling and enterprise-grade security features.</p>
+                        <ul class="project-features">
+                            <li><strong>Concurrency Handling:</strong> Transaction engine preventing race conditions.</li>
+                            <li><strong>Security & Compliance:</strong> AES-256 encryption for sensitive financial data.</li>
+                        </ul>
+                    </div>
+
+                    <!-- Project 3: NetworkFlow Analyzer -->
+                    <div class="project-card fade-item" data-category="web">
+                        <div class="project-img-container">
+                            <img src="assets/images/projects/NetworkFlow Analyzer.png" alt="NetworkFlow Analyzer" class="project-img">
+                        </div>
+                        <div class="project-header">
+                            <div>
+                                <h3>NetworkFlow Analyzer</h3>
+                                <p class="project-role">Lead Developer</p>
+                            </div>
+                        </div>
+                        <p class="project-tech"><strong>Tech Stack:</strong> C#, ASP.NET Core, JavaScript, Chart.js, SQL Server</p>
+                        <p class="project-description">Comprehensive network traffic analysis tool that visualizes data flow and identifies bottlenecks.</p>
+                        <ul class="project-features">
+                            <li><strong>Real-time Visualization:</strong> Dynamic graphing using Chart.js.</li>
+                            <li><strong>Data Processing:</strong> Efficient algorithms for large datasets with low latency.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <div class="container"><p>&copy; <span id="current-year"></span> Shenouda Tharwat. All rights reserved.</p></div>
+    </footer>
+    <button class="scroll-to-top"><i class="fas fa-arrow-up"></i></button>
+    <script src="assets/js/Script.js"></script>
+</body>
+</html>
